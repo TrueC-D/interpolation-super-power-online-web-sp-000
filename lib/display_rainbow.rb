@@ -4,6 +4,7 @@ def display_rainbow(colors)
   counter = 1
   colors.each do |color|
     if (counter) == colors.length
+      binding.pry
       print "#{color.split(//)[0].upcase}: #{color}"
     else
       print "#{color.split(//)[0].upcase}: #{color}, "
