@@ -2,7 +2,7 @@
 require 'pry'
 def display_rainbow(colors)
   counter = 1
-  colors.map do |color|
+  colors.each do |color|
     if (counter) == colors.length
       print "#{color.split(//)[0].upcase}: #{color}"
     else
