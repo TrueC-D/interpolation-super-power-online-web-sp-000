@@ -6,10 +6,9 @@ def display_rainbow(colors)
     if (counter) == colors.length
       print "#{color.split(//)[0].upcase}: #{color}"
     else
-      binding.pry
       print "#{color.split(//)[0].upcase}: #{color}, "
       counter +=1
     end
-
+  
   end
 end
