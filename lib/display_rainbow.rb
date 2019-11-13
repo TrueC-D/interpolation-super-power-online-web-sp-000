@@ -13,7 +13,5 @@ def display_rainbow(colors)
   end
 end
 
-# "R: red, O: orange, Y: yellow, G
-# : green, B: blue, I: indigo, V: violet\n" to stdout, but output
-# "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V:
-# violet"
+# "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n" to stdout, but output
+# "R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"
