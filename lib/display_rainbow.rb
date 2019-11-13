@@ -9,7 +9,7 @@ def display_rainbow(colors)
       print "#{color.split(//)[0].upcase}: #{color}, "
       counter +=1
     end
-
+binding.pry
   end
 end
 
